@@ -8,14 +8,14 @@ export default function Info() {
       <p className="profile--role">Software Developer</p>
       <p className="profile--website">hillary.website</p>
       <div className="profile--btngroup">
-        <button className="btn btn--email">
+        <a href="#a" className="btn btn--email">
           <FaEnvelope />
           <span>Email</span>
-        </button>
-        <button className="btn btn--linkedin">
+        </a>
+        <a href="#b" className="btn btn--linkedin">
           <FaLinkedin />
           <span>LinkedIn</span>
-        </button>
+        </a>
       </div>
     </div>
   );
