@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter, sans-serif;
+    background-color: #23252C;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.app {
+    max-width: 320px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: #1A1B21;
+}
+
+.profile--img {
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.profile {
+    text-align:center;
+    padding: 17.5px 35px;
+}
+
+.profile--name {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.profile--role {
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 6px;
+    color: #F3BF99;
+}
+
+.profile--website {
+    font-size: 12px;
+    margin: 6px;
+}
+
+.profile--btngroup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    padding: 9px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 6px 2%;
+    flex-grow: 1;
+    border-radius: 6px;
+    outline: 0px;
+    border: 0px;
+}
+
+.btn--linkedin{
+    color: #fff;
+    background-color: #5093E2;
+}
+
+.about, .interest {
+    padding: 17.5px 35px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.about--title, .interest--title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.footer {
+    padding: 19.5px;
+    text-align: center;
+    background-color: #161619;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.socials > li > a {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 10px
+}
